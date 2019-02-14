@@ -1,0 +1,13 @@
+{
+  "name": "jasminetests1",
+  "version": "1.0.0",
+  "description": "sample set of jasmine tests",
+  "devDependencies": {
+    "jasmine": "^3.2.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "ShreyasRMsft",
+  "license": "MIT"
+}
