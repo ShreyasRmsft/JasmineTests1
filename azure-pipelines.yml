@@ -6,9 +6,8 @@
 trigger:
 - master
 
-pool: Default
-
-variables: { agent.disablelogplugin.TestResultLogPlugin: 'false' }
+pool:
+  vmImage: vs2017-win2016
 
 steps:
 - script: npm install
